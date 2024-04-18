@@ -6,7 +6,8 @@ Projeto RESTful de replicação de sistema bancário utilizando SpringBoot 3, Ja
  - Java 17: Última versão LTS do Java;
  -  Spring Boot 3: Última versão do Spring Boot, maximizando produtividade por meio de autoconfigurações; 
  - Spring Data JPA: Ferramenta para simplificar a camada de dados, facilitando integração com banco de dados SQL;
-
+- OpenAPI (Swagger): Documentação da API, mostrando os endpoints criados, permitindo também testes na aplicação;
+- Railway: Infraestrutura em nuvem para deploy e monitoramento de aplicações, além de oferecer bancos de dados como serviços e pipelines CI/CD
 
 ## Diagrama de Classes
 
