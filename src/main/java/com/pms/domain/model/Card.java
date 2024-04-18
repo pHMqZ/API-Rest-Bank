@@ -14,7 +14,7 @@ public class Card {
     @Column(unique = true)
     private String number;
 
-    @Column(scale=13, precision = 2, name = "available_limit")
+    @Column(precision=12, scale = 2, name = "available_limit")
     private BigDecimal limit;
 
     public Long getId() {
