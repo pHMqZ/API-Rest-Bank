@@ -1,6 +1,12 @@
-# Sistema Bancário
+# Sistema Bancário - PhBank
 
-Projeto de sistema bancário utilizando SpringBoot 3, Java 17 e Railway
+Projeto RESTful de replicação de sistema bancário utilizando SpringBoot 3, Java 17 e Railway
+
+## Tecnologias utilizadas
+ - Java 17: Última versão LTS do Java;
+ -  Spring Boot 3: Última versão do Spring Boot, maximizando produtividade por meio de autoconfigurações; 
+ - Spring Data JPA: Ferramenta para simplificar a camada de dados, facilitando integração com banco de dados SQL;
+
 
 ## Diagrama de Classes
 
@@ -32,8 +38,8 @@ classDiagram
         -String description
     }
     
-    User "1" *--> "1" Account
-    User "1" *--> "1" Card
-    User "1" *--> "N" Feature
-    User "1" *--> "N" News
+    User "1" *-- "1" Account
+    User "1" *-- "1" Card
+    User "1" *-- "N" Feature
+    User "1" *--; "N" News
 ```
