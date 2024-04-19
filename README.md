@@ -44,3 +44,30 @@ classDiagram
     User "1" *-- "N" Feature
     User "1" *-- "N" News
 ```
+
+## Swagger - Documentação da API
+
+[https://api-rest-bank-prd.up.railway.app/swagger-ui/index.html](https://api-rest-bank-prd.up.railway.app/swagger-ui/index.html)
+
+A API está disponível no endpoint acima por um tempo determinado de acordo com o plano Trial do Railway. Abaixo seguem alguns prints dos métodos criados até então:
+
+### Criação de novo usuário
+
+Json contendo os dados do novo usuário cadastrado:
+![Post_usuario1](assets/teste_Post1.png)
+
+Retorno após a requisição ser salva:
+![Post_usuario2](assets/teste_Post2.png)
+
+### Buscando usuários pelo ID
+
+Ao inserir o ID do usuário e realizar a busca, é retornado o JSON com a informações do mesmo:
+![Get_usuario](assets/teste_get.png)
+
+### Exemplo de JSON para testes
+
+JSON contendo as informações a serem enviadas, necessitando apenas preencher os dados que queiram ser enviados:
+[JSON_teste](assets/TesteRequest.json)
+
+
+

@@ -1,0 +1,27 @@
+//Preencher os campos de acordo com os dados a serem criados
+
+{
+  "name": "",
+  "account": {
+    "number": "",
+    "agency": "",
+    "balance": 0000,
+    "limit": 0000
+  },
+  "card": {
+    "number": "",
+    "limit": 000
+  },
+  "features": [
+    {
+      "icon": "",
+      "description": ""
+    }
+  ],
+  "news": [
+    {
+      "icon": "",
+      "description": ""
+    }
+  ]
+}
